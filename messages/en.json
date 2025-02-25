@@ -1,0 +1,243 @@
+{
+  "WelcomePage": {
+    "welcome": "Welcome to Your Learning Hub",
+    "chosemessage": "Choose how you want to study today. Upload your documents for personalized quizzes or explore our curated collection of learning materials.",
+    "addDocument": {
+      "title": "Add your document",
+      "description": "Upload your materials to generate personalized quizzes"
+    },
+    "exploreBooks": {
+      "title": "Explore Our Books",
+      "description": "Browse our collection of ready-to-study learning materials"
+    },
+    "infoMessage1": "You've completed",
+    "infoMessage2": "quizzes so far. Keep up the great work!"
+  },
+  "PageInformation": {
+    "header": {
+      "count": "generated quizzes",
+      "french": "French",
+      "arabic": "Arabic",
+      "english": "English"
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Choose the provider you want to use to generate quizzes and set up your API key.",
+      "question-one": "Choose the provider",
+      "description-one": "Select the provider you want to use to generate quizzes.",
+      "question-two": "API Key",
+      "description-two": "Enter your API key to be able to use the services of the model you selected.",
+      "cta": "Save settings",
+      "created": "Created by"
+    }
+  },
+  "Home": {
+    "welcome": "Welcome {name} to Grade {grade}",
+    "guest": "Guest",
+    "subjectImageAlt": "{subject} cover image",
+    "availableQuizzes": "Available Quizzes: {count}",
+    "progress": "Progress: {completed}/{total}",
+    "subjects": {
+      "math": "Mathematics",
+      "science": "Science",
+      "Science": "Science",
+      "Physics": "Physics"
+    },
+    "descriptions": {
+      "math": "Learn mathematics through interactive lessons",
+      "science": "Explore scientific concepts and experiments",
+      "english": "Improve your English language skills",
+      "history": "Discover historical events and figures"
+    }
+  },
+  "HomePage": {
+    "modal": {
+      "title": "Welcome to AI Quiz Generator!",
+      "freeUseInfo": "You can use the application for free to generate up to 5 quizzes.",
+      "apiKeyRequirement": "After reaching this limit, you will need to set up your own Google or OpenAI API key to continue using the application.",
+      "apiKeySetupInfo": "You can configure your API key at any time by clicking the settings icon ⚙️ in the top bar."
+    },
+    "mainContent": {
+      "headline": "Generate smart quizzes with AI in seconds",
+      "description": "Upload your PDF or image and let AI create a personalized quiz for you. Perfect for all students who want to study more efficiently.",
+      "features": {
+        "aiQuestions": "AI-generated questions",
+        "tailoredContent": "Tailored to your content",
+        "instantFeedback": "Instant results and feedback"
+      },
+      "limit": "You have reached the limit of free quizzes. To continue, add your API key.",
+      "file": {
+        "headline": "Upload your",
+        "description": {
+          "image": "Drag and drop your image here, or click to select.",
+          "pdf": "Drag and drop your PDF file here, or click to select."
+        },
+        "select": "Click to select a",
+        "image": "image",
+        "pdf": "PDF",
+        "title": "File uploaded successfully",
+        "cta": "Generate quiz",
+        "submiting": "Uploading...",
+        "submit": "Upload"
+      }
+    }
+  },
+  "QuizConfig": {
+    "title": "Quiz Configuration",
+    "description": "Customize your quiz according to your needs",
+    "topicsQuestion": "What topics do you want the questions to be generated about?",
+    "topicsPlaceholder": "Write what topics you want the questions to be generated based on the provided content",
+    "questionCount": "Number of questions",
+    "questionType": "Question type",
+    "quizFocus": "Quiz focus",
+    "generatingQuestions": "Generating questions...",
+    "generateButton": "Generate Quiz",
+    "errorGeneratingQuiz": "Error generating quiz",
+    "aiFeatures": {
+      "title": "AI Personalized Quiz",
+      "characteristics": "AI Features:",
+      "intelligentQuestions": {
+        "title": "Intelligent question generation",
+        "description": "Our AI creates unique questions based on the provided content"
+      },
+      "adaptability": {
+        "title": "Difficulty level adaptability",
+        "description": "Questions automatically adjust according to the selected level"
+      },
+      "personalizedApproach": {
+        "title": "Personalized approach",
+        "description": "Generates specific questions according to the chosen focus"
+      }
+    },
+    "options": {
+      "selectQuestionType": "Select question type",
+      "questionTypeOption": "Multiple choice with single answer",
+      "multipleChoice": "Multiple choice with multiple answer",
+      "trueOrFalse": "True or False",
+      "selectFocus": "Select focus",
+      "general": "General",
+      "technical": "Tecnictal",
+      "theoretical": "Theoretical",
+      "selectDifficulty": "Select difficulty",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard",
+      "expert": "Expert"
+    },
+    "preview": {
+      "title": "Quiz preview:",
+      "currentConfig": "Current configuration:",
+      "questionCount": "Number of questions",
+      "focus": "Focus",
+      "difficulty": "Difficulty",
+      "questionType": "Question type",
+      "summary": "Based on this configuration, the AI will generate a personalized quiz with medium-level questions focused on general topics."
+    }
+  },
+  "QuizIntro": {
+    "title": "Knowledge Quiz",
+    "description": "Get ready, in this Quiz you'll validate your knowledge",
+    "features": [
+      "You can take the quiz as many times as you want.",
+      "The quiz consists of 3 questions.",
+      "There's no time limit to complete it, no stress.",
+      "At the end, you'll know which knowledge you need to reinforce to master it."
+    ],
+    "startButton": "Start quiz"
+  },
+  "QuizResults": {
+    "title": "Results",
+    "description": "Here you can see your answers and quiz results.",
+    "score": {
+      "correct": "Correct answers",
+      "percentage": "Percentage of correct answers",
+      "questionCountStart": "Question",
+      "questionCountMiddle": "of"
+    },
+    "questions": {
+      "use": "What is one of the main uses of the simple present tense?",
+      "example": "Which sentence is an example of the simple present tense?",
+      "truth": "Which sentence uses the simple present tense to state a general truth?"
+    },
+    "answers": {
+      "habits": "To describe habits and routines",
+      "breakfast": "She eats breakfast every day",
+      "earth": "The Earth revolves around the Sun"
+    },
+    "actions": {
+      "retry": "Retry quiz",
+      "share": "Share my results on Facebook",
+      "generate": "Generate another quiz",
+      "why": "Why is this the wrong answer?"
+    }
+  },
+  "Login": {
+    "title": "Sign In",
+    "email": "Email",
+    "signInWithGoogle": "Sign in with Google",
+    "or": "Or",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "createAccount": "Create account",
+    "signIn": "Sign in",
+    "welcomeMessage": "Welcome back! Please enter your details.",
+    "errors": {
+      "invalidEmail": "Please enter a valid email address",
+      "requiredEmail": "Email is required",
+      "requiredPassword": "Password is required",
+      "minPasswordLength": "Password must be at least 6 characters"
+    }
+  },
+  "Signup": {
+    "title": "Create Your Account",
+    "welcomeMessage": "LaLaLand is waiting for you! Let's get started.",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "or": "Or",
+    "signUp": "Sign up",
+    "signUpWithGoogle": "Sign up with Google",
+    "alreadyHaveAccount": "Already have an account?",
+    "forgotPassword": "Forgot password?",
+    "errors": {
+      "invalidEmail": "Please enter a valid email address",
+      "requiredEmail": "Email is required",
+      "requiredPassword": "Password is required",
+      "minPasswordLength": "Password must be at least 6 characters"
+    }
+  },
+  "Welcome": {
+    "title": "Welcome to Our Platform",
+    "description": "We're excited to have you here. Get started by exploring our features.",
+    "getStarted": "Get Started",
+    "close": "Close"
+  },
+  "Navbar": {
+    "home": "Home",
+    "quizzes": "Quizzes",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "subjectSelection": {
+    "title": "Select a subject",
+    "description": "Choose a subject to start the quiz",
+    "selectSubject": "Select a subject",
+    "startQuiz": "Start Quiz",
+    "back": "Go back",
+    "page": "Page"
+  },
+  "Subject": {
+    "progress": "Progress",
+    "welcome": "Welcome back {name} to Grade {grade}",
+    "availableQuizzes": "Available Quizzes",
+    "icon": "Icon",
+    "coverImage": "Cover Image",
+    "subject": {
+      "science": "Science",
+      "francais": "French",
+      "arabic": "Arabic",
+      "physics": "Physics"
+    }
+  }
+}

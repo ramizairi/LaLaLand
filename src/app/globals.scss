@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 14.3% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+
+    --primary: 24 9.8% 10%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 24 9.8% 10%;
+
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+
+    --accent: 60 4.8% 95.9%;
+    --accent-foreground: 24 9.8% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 20 14.3% 4.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 60 9.1% 97.8%;
+
+    --card: 20 14.3% 4.1%;
+    --card-foreground: 60 9.1% 97.8%;
+
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+
+    --primary: 60 9.1% 97.8%;
+    --primary-foreground: 24 9.8% 10%;
+
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 60 9.1% 97.8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 24 5.7% 82.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.group-fields {
+  @apply flex flex-col gap-2 mb-[24px];
+
+  label {
+    @apply font-bold text-[17px];
+  }
+
+  p {
+    @apply text-[15px] text-muted-foreground;
+  }
+}
+
+.select-item {
+  @apply cursor-pointer flex gap-3 items-center w-full py-2;
+}
+
+// Questions
+.quiz-progressbar {
+  @apply h-full bg-gradient-to-r from-[#00FF88] via-[#00FF88] to-[#0066FF] rounded;
+}
+
+.question-item {
+  @apply w-full text-left p-4 rounded-lg transition-colors;
+}
+
+.question-item__title {
+  @apply text-3xl font-bold mb-12;
+}
+
+.question-item__selected {
+  @apply bg-[#00FF88]/20 border-2 border-[#00FF88];
+}
+
+.question-item__default {
+  @apply bg-[#1A1F25] border-2 border-transparent hover:border-[#00FF88]/50;
+}
+
+.question-item__index {
+  @apply min-w-8 min-h-8 rounded-lg bg-[#272D36] flex items-center justify-center;
+}
+
+.btn-question {
+  @apply bg-[#00FF88] text-black hover:bg-[#00FF88]/90 active:bg-[#00c88a] w-full sm:w-auto;
+}
+
+.result-item {
+  @apply flex-1 p-4 rounded-lg;
+}
+
+.result-item__correct {
+  @apply bg-[#1A1F25] border border-[#00FF88]/30;
+}
+
+.result-item__wrong {
+  @apply bg-[#1A1F25] border border-red-500/30;
+}
+
+.file-tabs {
+  @apply flex flex-col items-center;
+
+  &__list {
+    @apply bg-[#0A0E12] rounded-full flex gap-2;
+
+    button {
+      @apply rounded-full;
+    }
+
+    button[data-state="active"] {
+      @apply bg-[#00FF88] text-[#1A1F25] font-bold;
+    }
+  }
+}

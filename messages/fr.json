@@ -1,0 +1,243 @@
+{
+    "WelcomePage": {
+        "welcome": "Bienvenue à ton Espace d'Apprentissage",
+        "chosemessage": "Choisis comment tu veux étudier aujourd'hui. Télécharge tes documents pour des quiz personnalisés ou explore notre collection de matériels d'apprentissage.",
+        "addDocument": {
+            "title": "Ajoute ton document",
+            "description": "Télécharge tes matériels pour créer des quiz personnalisés"
+        },
+        "exploreBooks": {
+            "title": "Explore nos livres",
+            "description": "Parcours notre collection de matériels d'apprentissage prêts à étudier"
+        },
+        "infoMessage1": "Tu as complété",
+        "infoMessage2": "quiz jusqu'à présent. Continue ton bon travail !"
+    },
+    "PageInformation": {
+        "header": {
+            "count": "quiz générés",
+            "french": "Français",
+            "arabic": "Arabe",
+            "english": "Anglais"
+        },
+        "settings": {
+            "title": "Réglages",
+            "description": "Choisis le fournisseur que tu veux utiliser pour générer des quiz et configure ta clé API.",
+            "question-one": "Choisis le fournisseur",
+            "description-one": "Sélectionne le fournisseur que tu veux utiliser pour générer des quiz.",
+            "question-two": "Clé API",
+            "description-two": "Entre ta clé API pour pouvoir utiliser les services du modèle que tu as choisi.",
+            "cta": "Enregistrer les réglages",
+            "created": "Créé par"
+        }
+    },
+    "Home": {
+        "welcome": "Bienvenue {name} en Classe {grade}",
+        "guest": "Invité",
+        "subjectImageAlt": "image de couverture de {subject}",
+        "availableQuizzes": "Quiz disponibles : {count}",
+        "progress": "Progrès : {completed}/{total}",
+        "subjects": {
+            "math": "Mathématiques",
+            "science": "Sciences",
+            "english": "Anglais",
+            "history": "Histoire"
+        },
+        "descriptions": {
+            "math": "Apprends les mathématiques grâce à des leçons interactives",
+            "science": "Explore les concepts scientifiques et les expériences",
+            "english": "Améliore tes compétences en anglais",
+            "history": "Découvre des événements et des personnages historiques"
+        }
+    },
+    "HomePage": {
+        "modal": {
+            "title": "Bienvenue au Générateur de Quiz IA !",
+            "freeUseInfo": "Tu peux utiliser l'application gratuitement pour générer jusqu'à 5 quiz.",
+            "apiKeyRequirement": "Après avoir atteint cette limite, tu devras configurer ta propre clé API Google ou OpenAI pour continuer à utiliser l'application.",
+            "apiKeySetupInfo": "Tu peux configurer ta clé API à tout moment en cliquant sur l'icône des réglages ⚙️ dans la barre du haut."
+        },
+        "mainContent": {
+            "headline": "Génère des quiz intelligents avec l'IA en quelques secondes",
+            "description": "Télécharge ton PDF ou ton image et laisse l'IA créer un quiz personnalisé pour toi. Parfait pour tous les élèves qui veulent étudier plus efficacement.",
+            "features": {
+                "aiQuestions": "Questions générées par l'IA",
+                "tailoredContent": "Adapté à ton contenu",
+                "instantFeedback": "Résultats et retours instantanés"
+            },
+            "limit": "Tu as atteint la limite de quiz gratuits. Pour continuer, ajoute ta clé API.",
+            "file": {
+                "headline": "Télécharge ton",
+                "description": {
+                    "image": "Glisse et dépose ton image ici, ou clique pour la sélectionner.",
+                    "pdf": "Glisse et dépose ton fichier PDF ici, ou clique pour le sélectionner."
+                },
+                "select": "Clique pour sélectionner une",
+                "image": "image",
+                "pdf": "PDF",
+                "title": "Fichier téléchargé avec succès",
+                "cta": "Générer un quiz",
+                "submiting": "Téléchargement...",
+                "submit": "Télécharger"
+            }
+        }
+    },
+    "QuizConfig": {
+        "title": "Configuration du Quiz",
+        "description": "Personnalise ton quiz selon tes besoins",
+        "topicsQuestion": "Sur quels sujets veux-tu que les questions soient générées ?",
+        "topicsPlaceholder": "Écris sur quels sujets tu veux que les questions soient générées en fonction du contenu fourni",
+        "questionCount": "Nombre de questions",
+        "questionType": "Type de question",
+        "quizFocus": "Focus du quiz",
+        "generatingQuestions": "Génération de questions...",
+        "generateButton": "Générer le Quiz",
+        "errorGeneratingQuiz": "Erreur lors de la génération du quiz",
+        "aiFeatures": {
+            "title": "Quiz personnalisé par l'IA",
+            "characteristics": "Fonctionnalités de l'IA :",
+            "intelligentQuestions": {
+                "title": "Génération intelligente de questions",
+                "description": "Notre IA crée des questions uniques basées sur le contenu fourni"
+            },
+            "adaptability": {
+                "title": "Adaptabilité du niveau de difficulté",
+                "description": "Les questions s'ajustent automatiquement en fonction du niveau sélectionné"
+            },
+            "personalizedApproach": {
+                "title": "Approche personnalisée",
+                "description": "Génère des questions spécifiques selon le focus choisi"
+            }
+        },
+        "options": {
+            "selectQuestionType": "Sélectionne le type de question",
+            "questionTypeOption": "Choix multiple avec une seule réponse",
+            "multipleChoice": "Choix multiple avec plusieurs réponses",
+            "trueOrFalse": "Vrai ou Faux",
+            "selectFocus": "Sélectionne le focus",
+            "general": "Général",
+            "technical": "Technique",
+            "theoretical": "Théorique",
+            "selectDifficulty": "Sélectionne la difficulté",
+            "easy": "Facile",
+            "medium": "Moyen",
+            "hard": "Difficile",
+            "expert": "Expert"
+        },
+        "preview": {
+            "title": "Aperçu du quiz :",
+            "currentConfig": "Configuration actuelle :",
+            "questionCount": "Nombre de questions",
+            "focus": "Focus",
+            "difficulty": "Difficulté",
+            "questionType": "Type de question",
+            "summary": "Selon cette configuration, l'IA générera un quiz personnalisé avec des questions de niveau moyen axées sur des sujets généraux."
+        }
+    },
+    "QuizIntro": {
+        "title": "Quiz de Connaissances",
+        "description": "Prépare-toi, dans ce Quiz tu vas vérifier tes connaissances",
+        "features": [
+            "Tu peux faire le quiz autant de fois que tu veux.",
+            "Le quiz comporte 3 questions.",
+            "Il n'y a pas de limite de temps pour le compléter, pas de stress.",
+            "À la fin, tu sauras quelles connaissances tu dois renforcer pour les maîtriser."
+        ],
+        "startButton": "Commencer le quiz"
+    },
+    "QuizResults": {
+        "title": "Résultats",
+        "description": "Ici tu peux voir tes réponses et les résultats du quiz.",
+        "score": {
+            "correct": "Réponses correctes",
+            "percentage": "Pourcentage de réponses correctes",
+            "questionCountStart": "Question",
+            "questionCountMiddle": "sur"
+        },
+        "questions": {
+            "use": "Quelle est l'une des principales utilisations du présent simple ?",
+            "example": "Quelle phrase est un exemple du présent simple ?",
+            "truth": "Quelle phrase utilise le présent simple pour énoncer une vérité générale ?"
+        },
+        "answers": {
+            "habits": "Pour décrire des habitudes et des routines",
+            "breakfast": "Elle prend son petit-déjeuner tous les jours",
+            "earth": "La Terre tourne autour du Soleil"
+        },
+        "actions": {
+            "retry": "Refaire le quiz",
+            "share": "Partager mes résultats sur Facebook",
+            "generate": "Générer un autre quiz",
+            "why": "Pourquoi est-ce la mauvaise réponse ?"
+        }
+    },
+    "Login": {
+        "title": "Se Connecter",
+        "email": "Email",
+        "signInWithGoogle": "Se connecter avec Google",
+        "or": "Ou",
+        "password": "Mot de passe",
+        "rememberMe": "Se souvenir de moi",
+        "forgotPassword": "Mot de passe oublié ?",
+        "createAccount": "Créer un compte",
+        "signIn": "Se connecter",
+        "welcomeMessage": "Bon retour ! Entre tes informations s'il te plaît.",
+        "errors": {
+            "invalidEmail": "Entre une adresse email valide s'il te plaît",
+            "requiredEmail": "L'email est obligatoire",
+            "requiredPassword": "Le mot de passe est obligatoire",
+            "minPasswordLength": "Le mot de passe doit avoir au moins 6 caractères"
+        }
+    },
+    "Signup": {
+        "title": "Crée Ton Compte",
+        "welcomeMessage": "LaLaLand t'attend ! Commençons.",
+        "email": "Email",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirme le Mot de passe",
+        "or": "Ou",
+        "signUp": "S'inscrire",
+        "signUpWithGoogle": "S'inscrire avec Google",
+        "alreadyHaveAccount": "Tu as déjà un compte ?",
+        "forgotPassword": "Mot de passe oublié ?",
+        "errors": {
+            "invalidEmail": "Entre une adresse email valide s'il te plaît",
+            "requiredEmail": "L'email est obligatoire",
+            "requiredPassword": "Le mot de passe est obligatoire",
+            "minPasswordLength": "Le mot de passe doit avoir au moins 6 caractères"
+        }
+    },
+    "Welcome": {
+        "title": "Bienvenue sur Notre Plateforme",
+        "description": "Nous sommes contents de t'avoir ici. Commence par explorer nos fonctionnalités.",
+        "getStarted": "Commencer",
+        "close": "Fermer"
+    },
+    "Navbar": {
+        "home": "Accueil",
+        "quizzes": "Quiz",
+        "profile": "Profil",
+        "logout": "Se déconnecter"
+    },
+    "subjectSelection": {
+        "title": "Choisis une matière",
+        "description": "Choisis une matière pour commencer le quiz",
+        "selectSubject": "Sélectionne une matière",
+        "startQuiz": "Commencer le Quiz",
+        "back": "Retour",
+        "page": "Page"
+    },
+    "Subject": {
+        "progress": "Progrès",
+        "welcome": "Bon retour {name} en Classe {grade}",
+        "availableQuizzes": "Quiz Disponibles",
+        "icon": "Icône",
+        "coverImage": "Image de couverture",
+        "subject": {
+            "science": "Sciences",
+            "francais": "Français",
+            "arabic": "Arabe",
+            "physics": "Physique"
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "1": {
+        "Arabic": {
+            "url": "/quiz/arabic",
+            "description": "Learn basic Arabic letters and words",
+            "icon": "📚",
+            "coverImage": "/images/arabic-grade1.jpg"
+        },
+        "Math": {
+            "url": "/quiz/math",
+            "description": "Basic numbers and counting",
+            "icon": "🔢",
+            "coverImage": "/images/math-grade1.jpg"
+        },
+        "Science": {
+            "url": "/quiz/science",
+            "description": "Discover the world around you",
+            "icon": "🔬",
+            "coverImage": "/images/science-grade1.jpg"
+        }
+    },
+    "2": {
+        "Arabic": {
+            "url": "/quiz/arabic",
+            "description": "Advanced Arabic reading and writing",
+            "icon": "📚",
+            "coverImage": "/images/arabic-grade2.jpg"
+        },
+        "Math": {
+            "url": "/quiz/math",
+            "description": "Addition and subtraction",
+            "icon": "🔢",
+            "coverImage": "/images/math-grade2.jpg"
+        },
+        "Science": {
+            "url": "/quiz/science",
+            "description": "Plants and animals",
+            "icon": "🌱",
+            "coverImage": "/images/science-grade2.jpg"
+        },
+        "Physics": {
+            "url": "/quiz/physics",
+            "description": "Basic physical concepts",
+            "icon": "⚡",
+            "coverImage": "/images/physics-grade2.jpg"
+        }
+    },
+    "3": {
+        "arabic": {
+            "description": "Advanced Arabic reading and writing",
+            "icon": "📚",
+            "coverImage": "/books/5e/francais.jpg",
+            "data": "5e_arabic"
+        },
+        "francais": {
+            "description": "Addition and subtraction",
+            "icon": "🔢",
+            "coverImage": "/books/5e/lecture.jpg",
+            "data": "5e_francais"
+        }
+    },
+    "4": {
+        "Arabic": {
+            "url": "/quiz/arabic",
+            "description": "Advanced Arabic reading and writing",
+            "icon": "📚",
+            "coverImage": "/images/arabic-grade2.jpg"
+        },
+        "Math": {
+            "url": "/quiz/math",
+            "description": "Addition and subtraction",
+            "icon": "🔢",
+            "coverImage": "/images/math-grade2.jpg"
+        },
+        "Science": {
+            "url": "/quiz/science",
+            "description": "Plants and animals",
+            "icon": "🌱",
+            "coverImage": "/images/science-grade2.jpg"
+        },
+        "Physics": {
+            "url": "/quiz/physics",
+            "description": "Basic physical concepts",
+            "icon": "⚡",
+            "coverImage": "/images/physics-grade2.jpg"
+        }
+    },
+    "5": {
+        "arabic": {
+            "description": "Advanced Arabic reading and writing",
+            "icon": "📚",
+            "coverImage": "/books/5e/lecture.jpg",
+            "data": "5e_arabic"
+        },
+        "francais": {
+            "description": "Addition and subtraction",
+            "icon": "🔢",
+            "coverImage": "/books/5e/francais.jpg",
+            "data": "5e_francais"
+        }
+    },
+    "6": {
+        "Arabic": {
+            "url": "/quiz/arabic",
+            "description": "Advanced Arabic reading and writing",
+            "icon": "📚",
+            "coverImage": "/images/arabic-grade2.jpg"
+        },
+        "Math": {
+            "url": "/quiz/math",
+            "description": "Addition and subtraction",
+            "icon": "🔢",
+            "coverImage": "/images/math-grade2.jpg"
+        },
+        "Science": {
+            "url": "/quiz/science",
+            "description": "Plants and animals",
+            "icon": "🌱",
+            "coverImage": "/images/science-grade2.jpg"
+        },
+        "Physics": {
+            "url": "/quiz/physics",
+            "description": "Basic physical concepts",
+            "icon": "⚡",
+            "coverImage": "/images/physics-grade2.jpg"
+        }
+    }
+}
