@@ -20,7 +20,6 @@ export default function QuizApp() {
   const [apiKey, setApiKey] = useState<string | null>(null);
 
   useEffect(() => {
-    // Check authentication status
     const user = localStorage.getItem('user');
     if (!user) {
       router.push(`/${locale}/login`);

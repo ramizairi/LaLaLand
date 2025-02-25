@@ -100,7 +100,7 @@ export default function SignupForm({ onSubmit }: SignupFormProps) {
             type={showPassword ? 'text' : 'password'}
             value={password}
             onChange={e => setPassword(e.target.value)}
-            className="pr-10"
+            className="pr-10 bg-peach text-black"
           />
           <button
             type="button"
@@ -129,7 +129,7 @@ export default function SignupForm({ onSubmit }: SignupFormProps) {
             type={showConfirmPassword ? 'text' : 'password'}
             value={confirmPassword}
             onChange={e => setConfirmPassword(e.target.value)}
-            className="pr-10"
+            className="pr-10 bg-peach text-black"
           />
           <button
             type="button"

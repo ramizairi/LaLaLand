@@ -147,13 +147,13 @@ export default function SignupPage() {
 
   return (
     <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
-      <div className="relative min-h-screen w-full bg-gradient-to-br from-gray-900 via-gray-800 to-indigo-900">
+      <div className="relative min-h-screen w-full bg-snow">
         {/* Rest of the JSX remains the same */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -inset-[100%] opacity-50">
-            <div className="absolute top-1/2 left-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-indigo-500/30 blur-3xl" />
-            <div className="absolute top-1/4 right-1/4 h-64 w-64 rounded-full bg-purple-500/20 blur-3xl" />
-            <div className="absolute bottom-1/4 left-1/4 h-64 w-64 rounded-full bg-blue-500/20 blur-3xl" />
+            <div className="absolute top-1/2 left-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-peach blur-3xl" />
+            <div className="absolute top-1/4 right-1/4 h-64 w-64 rounded-full bg-snow1 blur-3xl" />
+            <div className="absolute bottom-1/4 left-1/4 h-64 w-64 rounded-full bg-snow1 blur-3xl" />
           </div>
         </div>
 
@@ -179,7 +179,7 @@ export default function SignupPage() {
                   transition={{ duration: 0.5 }}
                   className="text-center"
                 >
-                  <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                  <h1 className="text-3xl font-bold bg-clip-text text-black">
                     {t('title')}
                   </h1>
                   <p className="mt-2 text-gray-400">{t('welcomeMessage')}</p>
